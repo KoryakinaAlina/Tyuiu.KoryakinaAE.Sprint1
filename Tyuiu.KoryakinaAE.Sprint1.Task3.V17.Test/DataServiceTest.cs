@@ -14,5 +14,5 @@ namespace Tyuiu.KoryakinaAE.Sprint1.Task3.V17.Test
             var res = ds.ZeroCheck(x);
             Assert.AreEqual(wait, res);
         }
-    }
+    } 
 }
