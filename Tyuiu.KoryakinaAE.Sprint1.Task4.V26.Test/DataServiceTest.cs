@@ -8,9 +8,9 @@ namespace Tyuiu.KoryakinaAE.Sprint1.Task4.V26.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 2;
+            double x = 1;
             double y = 1;
-            double wait = 0.105;
+            double wait = -0.062;
             var res = ds.Calculate(x, y);
             Assert.AreEqual(wait, res);
         }
