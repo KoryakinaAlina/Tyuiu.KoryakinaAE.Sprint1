@@ -1,4 +1,5 @@
-﻿using Tyuiu.KoryakinaAE.Sprint1.Task2.V7.Lib;
+using Tyuiu.KoryakinaAE.Sprint1.Task2.V7.Lib;
+
 internal class Program
 {
     private static void Main(string[] args)
@@ -28,7 +29,7 @@ internal class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        Console.WriteLine("Площадь круга с радиусом X = " + Math.Round(ds.CalculateSquareCircle(x), 3));
+        Console.WriteLine("Площадь круга с радиусом X = " + ds.CalculateSquareCircle(x));
         Console.ReadLine();
     }
 }
