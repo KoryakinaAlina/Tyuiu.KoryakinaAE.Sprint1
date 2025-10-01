@@ -16,7 +16,7 @@ namespace Tyuiu.KoryakinaAE.Sprint1.Task3.V17.Lib
                 }
                 Part /= 10;
             }
-            return false;  
+            return false;   
         }
     }
 }
