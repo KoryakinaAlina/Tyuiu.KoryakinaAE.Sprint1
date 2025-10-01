@@ -21,13 +21,11 @@ internal class Program
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine();
-        int x;
+
         Console.WriteLine("Введите значение Х:");
-        x = Convert.ToInt32(Console.ReadLine());
-        int y;
+       double x = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Введите значение Y:");
-        y = Convert.ToInt32(Console.ReadLine());
+        double y = Convert.ToDouble(Console.ReadLine());
 
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
