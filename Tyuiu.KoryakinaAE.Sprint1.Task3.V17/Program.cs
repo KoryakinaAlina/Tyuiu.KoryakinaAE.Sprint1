@@ -33,6 +33,7 @@ internal class Program
 
         Console.WriteLine("Есть ли среди первых трех цифр из дробной части заданного вещественного числа цифра 0 - " + ds.ZeroCheck(x));
 
+
         Console.ReadLine();   
     }
 }

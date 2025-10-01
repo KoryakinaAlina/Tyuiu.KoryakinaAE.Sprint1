@@ -10,7 +10,7 @@ namespace Tyuiu.KoryakinaAE.Sprint1.Task3.V17.Test
         {
             DataService ds = new DataService();
             double x = 123.456; 
-            bool wait = false; 
+            bool wait = false;  
             var res = ds.ZeroCheck(x);
             Assert.AreEqual(wait, res);
         }
