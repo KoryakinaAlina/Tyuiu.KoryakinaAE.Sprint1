@@ -13,7 +13,7 @@ internal class Program
         Console.WriteLine("* Тема: Преобразование типов и класс Convert                             *");
         Console.WriteLine("* Задание #5                                                             *");
         Console.WriteLine("* Вариант #4                                                             *");
-        Console.WriteLine("* Выполнил: Корякина Алина Эльдаяговна | ИСТНб-25-1                      *");
+        Console.WriteLine("* Выполнил: Корякина Алина Эльдаяговна | ИСТНб-25-1                       *");
         Console.WriteLine("**************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                               *");
         Console.WriteLine("* Написать программу, которая решает следующую задачу: Идет k-я секунда  *");
