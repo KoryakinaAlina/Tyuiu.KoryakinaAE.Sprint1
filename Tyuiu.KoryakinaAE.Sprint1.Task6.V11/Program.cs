@@ -1,6 +1,4 @@
-﻿using System.Runtime.InteropServices;
-
-using Tyuiu.KoryakinaAE.Sprint1.Task5.V4.Lib;
+﻿using Tyuiu.KoryakinaAE.Sprint1.Task6.V11.Lib;
 internal class Program
 {
     private static void Main(string[] args)
@@ -10,26 +8,28 @@ internal class Program
         Console.Title = "Спринт #1 | Выполнил: Корякина А. Э. | ИСТНб-25-1";
         Console.WriteLine("**************************************************************************");
         Console.WriteLine("* Спринт #1                                                              *");
-        Console.WriteLine("* Тема: Преобразование типов и класс Convert                             *");
-        Console.WriteLine("* Задание #5                                                             *");
-        Console.WriteLine("* Вариант #4                                                             *");
+        Console.WriteLine("* Тема: Работа со строками класс Convert                                 *");
+        Console.WriteLine("* Задание #6                                                             *");
+        Console.WriteLine("* Вариант #11                                                            *");
         Console.WriteLine("* Выполнил: Корякина Алина Эльдаяговна | ИСТНб-25-1                      *");
         Console.WriteLine("**************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                               *");
-        Console.WriteLine("* Написать программу, которая решает следующую задачу: Идет k-я секунда  *");
-        Console.WriteLine("* суток. Определить, сколько полных часов прошло к этому моменту.        *");
+        Console.WriteLine("* Написать программу: пользователь вводит текст.                         *");
+        Console.WriteLine("* Проверить, что первая буква строки входит в нее еще раз.               *");
         Console.WriteLine("*                                                                        *");
         Console.WriteLine("**************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                       *");
         Console.WriteLine("**************************************************************************");
 
-        int k;
-        Console.WriteLine("Введите секунды:");
-        k = (int)Convert.ToDouble(Console.ReadLine());
+        string s = Console.ReadLine();
+     
         Console.WriteLine("**************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
         Console.WriteLine("**************************************************************************");
-        Console.WriteLine("Количество полных часов = " + ds.SecondsToHours(k));
-        Console.ReadLine();
+
+        bool res = ds.CheckeFirstLetterRepetition(s);
+
+        Console.WriteLine(res);
+        Console.ReadKey();
     }
 }
