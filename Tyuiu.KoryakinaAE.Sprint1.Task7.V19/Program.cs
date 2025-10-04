@@ -21,7 +21,7 @@ internal class Program
         Console.WriteLine("***************************************************************************");
         double x;
         Console.WriteLine("Введите значиение X:");
-        x = Convert.ToInt32(Console.ReadLine());
+        x = Convert.ToDouble(Console.ReadLine());
 
 
         Console.WriteLine("***************************************************************************");
